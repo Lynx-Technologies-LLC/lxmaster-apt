@@ -1,7 +1,36 @@
 Origin: LXMASTER
 Label: LXMASTER
-Codename: stable
+Codename: jammy
 Architectures: amd64 arm64
 Components: main
-Description: LXMASTER real-time EtherCAT master apt repository
+Description: LXMASTER apt repository (Ubuntu 22.04 LTS / jammy)
 SignWith: yes
+
+Origin: LXMASTER
+Label: LXMASTER
+Codename: noble
+Architectures: amd64 arm64
+Components: main
+Description: LXMASTER apt repository (Ubuntu 24.04 LTS / noble)
+SignWith: yes
+
+Origin: LXMASTER
+Label: LXMASTER
+Codename: resolute
+Architectures: amd64 arm64
+Components: main
+Description: LXMASTER apt repository (Ubuntu 26.04 LTS / resolute)
+SignWith: yes
+
+Origin: LXMASTER
+Label: LXMASTER
+Codename: bookworm
+Architectures: amd64 arm64
+Components: main
+Description: LXMASTER apt repository (Debian 12 / bookworm)
+SignWith: yes
+
+# Debian 13 (trixie) is intentionally not defined here yet: `shc`, required by the
+# release build's -DLXMASTER_OBFUSCATE_SCRIPTS=ON, was removed from Debian testing on
+# 2024-07-03 (Debian bug #1072469) and never migrated back before trixie's freeze, so
+# it isn't in trixie's repos. Add a Codename: trixie stanza back once that's resolved.

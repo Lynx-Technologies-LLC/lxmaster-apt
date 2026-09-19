@@ -1,0 +1,5 @@
+Component: main
+Origin: LXMASTER
+Label: LXMASTER
+Architecture: arm64
+Description: LXMASTER apt repository (Ubuntu 22.04 LTS / jammy)

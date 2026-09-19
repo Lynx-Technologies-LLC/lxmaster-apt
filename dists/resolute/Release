@@ -1,0 +1,28 @@
+Origin: LXMASTER
+Label: LXMASTER
+Codename: resolute
+Date: Sat, 19 Sep 2026 01:30:35 UTC
+Architectures: amd64 arm64
+Components: main
+Description: LXMASTER apt repository (Ubuntu 26.04 LTS / resolute)
+MD5Sum:
+ f119e4b5783dd8505c9910c3b31663a8 660 main/binary-amd64/Packages
+ ec8c2231fe3f661aedbd6d4d18bf3b30 452 main/binary-amd64/Packages.gz
+ fd95a8bb3a1ccbf7073b03b39f5a87e3 136 main/binary-amd64/Release
+ 96946464a5dea6f31ee83019702d0a08 660 main/binary-arm64/Packages
+ 68b973c78ebb956a625949a930bb4030 452 main/binary-arm64/Packages.gz
+ de43bcce8f5adf58c6c73f085ec64b4a 136 main/binary-arm64/Release
+SHA1:
+ a254254edf70352311b0fa5a1bf9fd3009d27319 660 main/binary-amd64/Packages
+ d70e47ff2dcbb66bc4f4657970784f18bf1cf52c 452 main/binary-amd64/Packages.gz
+ c5df32b265ab0f1446a62982fcf8f4cc5baeb496 136 main/binary-amd64/Release
+ 97f503ea3f6a515b3aa8ed2117dc21ba1389b30d 660 main/binary-arm64/Packages
+ 2a6ab54e5fcc64a76c0899be566a8540a610e12e 452 main/binary-arm64/Packages.gz
+ b48c17915f239d915ccc1503fe5273f42465c15d 136 main/binary-arm64/Release
+SHA256:
+ 864341aa0b7b40e2a17e9c90834dc5a29f9e976ac15f01e994dbb2aef8bfaf3b 660 main/binary-amd64/Packages
+ ea04f1807b7f9b5be9332b8443a761ff692164926c14d19464f513f86596e54f 452 main/binary-amd64/Packages.gz
+ a7ca39bab07844d8758140ad627faf711933b2e2a1f1033cc351ca1ff7279657 136 main/binary-amd64/Release
+ 0a64d5138acd0fe364b2d8938f94830b52888e19daebcff66c88ae597ec26d49 660 main/binary-arm64/Packages
+ 19c231da774bf8f8ca8e6ef961246073ccdb8b3d401e4b12895ab3a36fae66b9 452 main/binary-arm64/Packages.gz
+ 3d0393d5a836eaa8bb69980889eda07f7ab21cdae6ebc822469c681ea6350456 136 main/binary-arm64/Release

@@ -22,26 +22,36 @@
 </head>
 <body>
   <h1>LXMASTER apt repository</h1>
-  <p class="sub">Real-time EtherCAT master &mdash; latest release: <strong>v1.1.1</strong></p>
+  <p class="sub">Real-time EtherCAT master &mdash; latest release: <strong>v1.2.4</strong></p>
 
   <h2>Install</h2>
-  <pre><code>curl -fsSL https://apt.lynxtechs.com/lxmaster.gpg | sudo tee /usr/share/keyrings/lxmaster.gpg >/dev/null
-echo "deb [signed-by=/usr/share/keyrings/lxmaster.gpg] https://apt.lynxtechs.com stable main" | sudo tee /etc/apt/sources.list.d/lxmaster.list
+  <pre><code>curl -fsSL https://lxmaster.apt.lynxtechs.com/lxmaster.gpg | sudo tee /usr/share/keyrings/lxmaster.gpg >/dev/null
+
+SUPPORTED="jammy noble resolute bookworm"
+CODENAME="$(lsb_release -cs 2>/dev/null || echo unknown)"
+case " $SUPPORTED " in
+  *" $CODENAME "*) ;;
+  *) echo "lxmaster does not publish packages for '$CODENAME'. Supported: $SUPPORTED. Build from source instead." >&2; exit 1 ;;
+esac
+
+echo "deb [signed-by=/usr/share/keyrings/lxmaster.gpg] https://lxmaster.apt.lynxtechs.com $CODENAME main" | sudo tee /etc/apt/sources.list.d/lxmaster.list
 sudo apt update &amp;&amp; sudo apt install lxmaster</code></pre>
+  <p>The codename check fails clearly and immediately on an unsupported system, instead
+     of falling through to a confusing apt dependency error partway into the install.</p>
 
   <h2>Supported distributions</h2>
-  <p>Packages are built against glibc 2.35 (Ubuntu 22.04 baseline) with GCC&nbsp;12,
-     for <code>amd64</code> and <code>arm64</code>. glibc is backward compatible, so any
-     distro at or above this baseline works.</p>
+  <p>Each codename below is built and smoke-tested natively against that distro's own
+     toolchain and libraries (not one binary built once and shipped everywhere), so the
+     package always depends on whatever runtime libraries actually exist there.</p>
   <table>
-    <thead><tr><th>Distribution</th><th>glibc</th><th>Supported</th></tr></thead>
+    <thead><tr><th>Distribution</th><th>Codename</th><th>Supported</th></tr></thead>
     <tbody>
-      <tr><td>Ubuntu 22.04 LTS</td><td>2.35</td><td class="ok">Yes</td></tr>
-      <tr><td>Ubuntu 24.04 LTS</td><td>2.39</td><td class="ok">Yes</td></tr>
-      <tr><td>Debian 12 (bookworm)</td><td>2.36</td><td class="ok">Yes</td></tr>
-      <tr><td>Debian 13 (trixie)</td><td>2.41</td><td class="ok">Yes</td></tr>
-      <tr><td>Raspberry Pi OS (bookworm, 64-bit)</td><td>2.36</td><td class="ok">Yes</td></tr>
-      <tr><td>Ubuntu 20.04 / Debian 11 / Pi OS bullseye</td><td>2.31</td><td class="no">No</td></tr>
+      <tr><td>Ubuntu 22.04 LTS</td><td>jammy</td><td class="ok">Yes</td></tr>
+      <tr><td>Ubuntu 24.04 LTS</td><td>noble</td><td class="ok">Yes</td></tr>
+      <tr><td>Ubuntu 26.04 LTS</td><td>resolute</td><td class="ok">Yes</td></tr>
+      <tr><td>Debian 12</td><td>bookworm</td><td class="ok">Yes</td></tr>
+      <tr><td>Debian 13</td><td>trixie</td><td class="no">Not yet (blocked on Debian bug #1072469 &mdash; <code>shc</code> missing from trixie's repos)</td></tr>
+      <tr><td>Any other distro/codename, incl. Ubuntu interim releases</td><td>&mdash;</td><td class="no">No</td></tr>
     </tbody>
   </table>
   <p>Requires a 64-bit OS (<code>dpkg --print-architecture</code> &rarr; <code>amd64</code> or <code>arm64</code>).</p>

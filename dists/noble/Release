@@ -1,0 +1,28 @@
+Origin: LXMASTER
+Label: LXMASTER
+Codename: noble
+Date: Sat, 19 Sep 2026 01:30:35 UTC
+Architectures: amd64 arm64
+Components: main
+Description: LXMASTER apt repository (Ubuntu 24.04 LTS / noble)
+MD5Sum:
+ de6271cc9611e92b1c0b09ea5dab2a2d 652 main/binary-amd64/Packages
+ e01a03edebaf22c0a1fbc8ab87546ebd 449 main/binary-amd64/Packages.gz
+ cdfcb4f95152718590a455aa4fc38363 133 main/binary-amd64/Release
+ 5549599861ff0ec3177b6a588cc56329 652 main/binary-arm64/Packages
+ 0a374a3ec066894583c00855fb51979f 446 main/binary-arm64/Packages.gz
+ 38e5b9300610c3c41d7dc46953807d00 133 main/binary-arm64/Release
+SHA1:
+ a181b8a0023bfa36cc33046419c19e64b5383c65 652 main/binary-amd64/Packages
+ 0a2a488f33f2cd255b3f39c130d4b90b50ad4d59 449 main/binary-amd64/Packages.gz
+ 193830b4c35ba5e79b42459ccae25c39632cedda 133 main/binary-amd64/Release
+ 28f678ffd172973a514dfda95d2b8f158afe2297 652 main/binary-arm64/Packages
+ 8e21d49ef0712c3feb69361b6b5140d67b618dff 446 main/binary-arm64/Packages.gz
+ b48da0dffa5d4ad070e88dcb890767978332497f 133 main/binary-arm64/Release
+SHA256:
+ 9bc52491bfec8b3b0c96b729a529e67c3063571c9b68bbf6fad774f85a8b42be 652 main/binary-amd64/Packages
+ e27c2c06b195495ba8543d6c9ff3b12ff002502d08892fdb9ea2486ca2eb53b7 449 main/binary-amd64/Packages.gz
+ 2c422a9246ac4403fdf107466efc98a2261faf01c6582c5f0a39253164b90edd 133 main/binary-amd64/Release
+ 3de5cba54f1bbbc774ae8dbe427fb09dc6b13b22b3778f4a85e9842ef7339eba 652 main/binary-arm64/Packages
+ fe996a396ba98538acc2344b44310bba39009042b5cb4c2c3b180f892b3c3c5d 446 main/binary-arm64/Packages.gz
+ 461a51985653133ae925c1d91420d7933d5133204d644a8fd120b6de8a2efe89 133 main/binary-arm64/Release
