@@ -4,35 +4,35 @@ Hash: SHA512
 Origin: LXMASTER
 Label: LXMASTER
 Codename: bookworm
-Date: Sat, 19 Sep 2026 01:30:36 UTC
+Date: Sat, 19 Sep 2026 01:44:48 UTC
 Architectures: amd64 arm64
 Components: main
 Description: LXMASTER apt repository (Debian 12 / bookworm)
 MD5Sum:
- bd575bf110ad80e5a1db1a3915fb0793 653 main/binary-amd64/Packages
- 1ec02b02b2c93b9c4f851a2caa52e586 451 main/binary-amd64/Packages.gz
+ c6e2a52dfb4e8fbc04dbc77de0d43e78 644 main/binary-amd64/Packages
+ 5f6d966d89cda1da281b0a4fa135452d 449 main/binary-amd64/Packages.gz
  28e524e056570fe8f69353eb58cda7a2 129 main/binary-amd64/Release
- 93faa0858ace91cc805b6d3d30a026dc 653 main/binary-arm64/Packages
- 55e3394902147771b61576761b46451c 449 main/binary-arm64/Packages.gz
+ 3e0477174d55518c651f3a63712139af 644 main/binary-arm64/Packages
+ cbafd9970e204c92d6086ef0ba6d5fe2 447 main/binary-arm64/Packages.gz
  e8c01243d8109a7eca07552dc90b1497 129 main/binary-arm64/Release
 SHA1:
- 50ddf6b2c54409c4dbf0e88faa9212d34af0a404 653 main/binary-amd64/Packages
- 5226111c477da07fb9c3f592bee51b4d2fe92bd2 451 main/binary-amd64/Packages.gz
+ 3c2912dceecdd5c422e70e6b67d4ca3689326993 644 main/binary-amd64/Packages
+ 4e84eb53c8e917c29afd08ca23002ed49f9ea550 449 main/binary-amd64/Packages.gz
  aa1b5ffed1fd4775c85a4d85284e6b788de299c9 129 main/binary-amd64/Release
- e0de19d73614ad835c74e3c7fa195e2b92914fb9 653 main/binary-arm64/Packages
- c69bb7749aa2d0fd9a756cf3ae4909c51b07a7a2 449 main/binary-arm64/Packages.gz
+ c1f81f5933b20a2157e318e197a61fd40b1f72be 644 main/binary-arm64/Packages
+ bcac81260123a1bec20e815c0c31a5fa697db907 447 main/binary-arm64/Packages.gz
  79b7ff7d485c1285d57aa5d55745f76b833ae3bd 129 main/binary-arm64/Release
 SHA256:
- 550de09b0459b6d6cc7b98569dafdbb26455cac13dd0fbb245ab7ad81285f4b4 653 main/binary-amd64/Packages
- 0e324db85f286f54358a1e802f71d54b53330e00fde7b713cee64efa3dd3d009 451 main/binary-amd64/Packages.gz
+ 6b200445a526a413ae3c5384051ba734a8a250151bcf2f3430abc2570e97d70c 644 main/binary-amd64/Packages
+ 11e9e9224a1c741530c671ad311c5d798e33f40da5ab50946d98f3ff3f1026d3 449 main/binary-amd64/Packages.gz
  4f650e35963409a965899ea84d1aa402bf7356250047b1825a8dfcd8c7d0c8fb 129 main/binary-amd64/Release
- 095c5a04dbe1c6e99c3092c0e6043558492607a8a6d812d16eb574c8bb6c0811 653 main/binary-arm64/Packages
- f7fc9608a4b6887be5ee16428ad65aa2fde17c9f1e5feeb06cc31fc793c7c62f 449 main/binary-arm64/Packages.gz
+ 135005c9c9c324dcd5f7100ffdfefded6db2950e04d34b9e1ff5b88ef2e41ebd 644 main/binary-arm64/Packages
+ 856d237c6fe572dfcc3df13fc93b402a4fa331dd32ede5885c9874270375a383 447 main/binary-arm64/Packages.gz
  7ebaa84305102fbad7c7a5251023cc67755097e73f675567d11c5bf82272898a 129 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQho7Bhvz6C/Fi3o6h1rynT2f9NDwUCaq3lvAAKCRB1rynT2f9N
-D9VKAP0d2mSQGZyS8scFeF/+87g7vtVgoIvQQFo+OC+1V9OFiQD/VW8m7KDnIPsL
-rUW0VSummHZge+U+Ty9gAA+vugPv1w4=
-=s/Yd
+iHUEARYKAB0WIQQho7Bhvz6C/Fi3o6h1rynT2f9NDwUCaq3pEAAKCRB1rynT2f9N
+D53GAQDv2hnM6IAC8nOKkzXzuFPV1lzygbtJiAEtksZ2xHz1ygEA4D3Lrzo6fuGK
+lQrVhbR+lKvz7SnFXmkhlhP3Yl+4JAU=
+=Gggo
 -----END PGP SIGNATURE-----

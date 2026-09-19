@@ -25,7 +25,7 @@
   <p class="sub">Real-time EtherCAT master &mdash; latest release: <strong>v1.2.4</strong></p>
 
   <h2>Install</h2>
-  <pre><code>curl -fsSL https://lxmaster.apt.lynxtechs.com/lxmaster.gpg | sudo tee /usr/share/keyrings/lxmaster.gpg >/dev/null
+  <pre><code>curl -fsSL https://apt.lynxtechs.com/lxmaster.gpg | sudo tee /usr/share/keyrings/lxmaster.gpg >/dev/null
 
 SUPPORTED="jammy noble resolute bookworm"
 CODENAME="$(lsb_release -cs 2>/dev/null || echo unknown)"
@@ -34,7 +34,7 @@ case " $SUPPORTED " in
   *) echo "lxmaster does not publish packages for '$CODENAME'. Supported: $SUPPORTED. Build from source instead." >&2; exit 1 ;;
 esac
 
-echo "deb [signed-by=/usr/share/keyrings/lxmaster.gpg] https://lxmaster.apt.lynxtechs.com $CODENAME main" | sudo tee /etc/apt/sources.list.d/lxmaster.list
+echo "deb [signed-by=/usr/share/keyrings/lxmaster.gpg] https://apt.lynxtechs.com $CODENAME main" | sudo tee /etc/apt/sources.list.d/lxmaster.list
 sudo apt update &amp;&amp; sudo apt install lxmaster</code></pre>
   <p>The codename check fails clearly and immediately on an unsupported system, instead
      of falling through to a confusing apt dependency error partway into the install.</p>

@@ -4,13 +4,13 @@ Depends: libc6 (>= 2.34), libcurl4 (>= 7.16.2), libgcc-s1 (>= 4.2), libsodium23 
 Priority: optional
 Section: libs
 Filename: pool/main/l/lxmaster/lxmaster_1.2.4+bookworm_arm64.deb
-Size: 1529252
-SHA256: 6ba29001a14b43e94afae4e93802c11fb25c449aa790e3cd094fb451249e05a3
-SHA1: 9bd208e35a0ddc575d48ad590690d8d83d3233ad
-MD5sum: 24fb772f0602805294f54ce37b38380e
+Size: 1528406
+SHA256: 852ecefa5d96163f4f7543d2c8c854c89a0a9dbffceffd72206ad2853f6943c7
+SHA1: 50d9eb145ce42c1073cf6bb277444432be3f88ec
+MD5sum: 5f751073b9a8188dfec6763ce501f0d3
 Description: LXMASTER real-time EtherCAT master library, tools, and CLI
-Homepage: https://lxmaster.apt.lynxtechs.com
+Homepage: https://apt.lynxtechs.com
 Maintainer: LXMASTER <maintainer@lynxtechs.com>
 Version: 1.2.4+bookworm
-Installed-Size: 5593
+Installed-Size: 5592
 
