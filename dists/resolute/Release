@@ -1,28 +1,28 @@
 Origin: LXMASTER
 Label: LXMASTER
 Codename: resolute
-Date: Sat, 19 Sep 2026 01:44:48 UTC
+Date: Thu, 01 Oct 2026 18:34:17 UTC
 Architectures: amd64 arm64
 Components: main
 Description: LXMASTER apt repository (Ubuntu 26.04 LTS / resolute)
 MD5Sum:
- 42fbe62531f554cac25154cab86e04ec 651 main/binary-amd64/Packages
- 6aa30662eeedb17399feeee9612c044d 452 main/binary-amd64/Packages.gz
+ 57c2fd59eb1898b9fad37c9d1c275ead 651 main/binary-amd64/Packages
+ 43086aa9bbce11b4c09fe5f20ec50b6c 452 main/binary-amd64/Packages.gz
  fd95a8bb3a1ccbf7073b03b39f5a87e3 136 main/binary-amd64/Release
- 64f57bf34466044c33dd75253640d0e3 651 main/binary-arm64/Packages
- b1ea20b57852231290fd290ec2f09991 451 main/binary-arm64/Packages.gz
+ 8b5651a7780067e3f963363e9b90f8e9 651 main/binary-arm64/Packages
+ 4886c64456b49fd1c9465ccbb0ee2415 448 main/binary-arm64/Packages.gz
  de43bcce8f5adf58c6c73f085ec64b4a 136 main/binary-arm64/Release
 SHA1:
- f5355d49688f8ebf3b71db98e6c8f8394ad71edc 651 main/binary-amd64/Packages
- b409a30dc667b1e8d00db292a374e928bd51596a 452 main/binary-amd64/Packages.gz
+ e1f85b68ac4d72458e812f782fbcb8839e5c35ba 651 main/binary-amd64/Packages
+ f297b55dbd88c3fe44a7ae8692ae69a0f310b5fa 452 main/binary-amd64/Packages.gz
  c5df32b265ab0f1446a62982fcf8f4cc5baeb496 136 main/binary-amd64/Release
- f9c37e049f3182bc4b3df0b5cb3cf9e3cf43ab6b 651 main/binary-arm64/Packages
- 83e567d5451df516440f4a0b3c833f60eb669a23 451 main/binary-arm64/Packages.gz
+ 694bb2ae24261c8353cea58bfaa7cddef6d9b2c9 651 main/binary-arm64/Packages
+ eb5c268d9a09c318a5fce8bb82704a93f0a3a92a 448 main/binary-arm64/Packages.gz
  b48c17915f239d915ccc1503fe5273f42465c15d 136 main/binary-arm64/Release
 SHA256:
- 2b2668dfa59130237cce56ca538f7ca3b8189e96f2344b4107e4672800d5ab49 651 main/binary-amd64/Packages
- 1a6b9960d9367f6be798093a70ef3a6e93fa8361478951f3997aa4a2843ad673 452 main/binary-amd64/Packages.gz
+ 9a5ebaa5c315805faee022811a5a5729f219b33992d03c2a0141e6a4f5e666a5 651 main/binary-amd64/Packages
+ eaa1e687f860c4dd841556221e6741a5f45c82d8d839a9df544b1c9139c1f590 452 main/binary-amd64/Packages.gz
  a7ca39bab07844d8758140ad627faf711933b2e2a1f1033cc351ca1ff7279657 136 main/binary-amd64/Release
- 5d5360cf507d7d7c39480ebbff97de28527dccc201b180a5eb0bf144cc34083f 651 main/binary-arm64/Packages
- 79d8b08b7501d81285af2d132da71910de43c0e537b33d7adf0876104d79e922 451 main/binary-arm64/Packages.gz
+ 30f963c021374db7ab3671ef7d161e701949c9cb4567b2f12ae536a72da59015 651 main/binary-arm64/Packages
+ 71d2c7eef4215ff95689fa897d99e4c6be2fd16d007b4dfa75f0d1980bd40481 448 main/binary-arm64/Packages.gz
  3d0393d5a836eaa8bb69980889eda07f7ab21cdae6ebc822469c681ea6350456 136 main/binary-arm64/Release

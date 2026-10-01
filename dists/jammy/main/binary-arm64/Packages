@@ -3,14 +3,14 @@ Architecture: arm64
 Depends: libc6 (>= 2.34), libcurl4 (>= 7.16.2), libgcc-s1 (>= 4.2), libsodium23 (>= 0.6.1), libstdc++6 (>= 11), libxml2 (>= 2.7.4)
 Priority: optional
 Section: libs
-Filename: pool/main/l/lxmaster/lxmaster_1.2.4+jammy_arm64.deb
-Size: 1500802
-SHA256: ac97d0593ae75f9ac2d2cc59f269e9c51ca5460422d89a6df583acfa67f59c7a
-SHA1: 428641ee98a285964164f8a5e11bb5f292e4917b
-MD5sum: fe60f249dc5cd49b64bcd6de5f8f76b4
+Filename: pool/main/l/lxmaster/lxmaster_1.2.5+jammy_arm64.deb
+Size: 1596912
+SHA256: b69406ca3d4dfdb100d96e389a4bfc757a8ce252cf94c65ac5459d11449072f7
+SHA1: 0daddbccadcfd784abce792d305f2438135b598f
+MD5sum: 9239f2af550dfeb30877f5b5137f39e4
 Description: LXMASTER real-time EtherCAT master library, tools, and CLI
 Homepage: https://apt.lynxtechs.com
 Maintainer: LXMASTER <maintainer@lynxtechs.com>
-Version: 1.2.4+jammy
-Installed-Size: 4898
+Version: 1.2.5+jammy
+Installed-Size: 5264
 
