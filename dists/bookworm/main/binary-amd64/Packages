@@ -3,14 +3,14 @@ Architecture: amd64
 Depends: libc6 (>= 2.34), libcurl4 (>= 7.16.2), libgcc-s1 (>= 3.0), libsodium23 (>= 0.6.1), libstdc++6 (>= 11), libxml2 (>= 2.7.4)
 Priority: optional
 Section: libs
-Filename: pool/main/l/lxmaster/lxmaster_1.2.5+bookworm_amd64.deb
-Size: 1722380
-SHA256: 5ab31fe6a4a64de48e0beba3975488a171c922374ce2bac85ff99620a7f95ba5
-SHA1: 3164fc2150cf938302cbd6c194eef624e3c7f52f
-MD5sum: 6f7239f0d9c83c1b1df3382d0865903b
+Filename: pool/main/l/lxmaster/lxmaster_1.2.6+bookworm_amd64.deb
+Size: 1743522
+SHA256: f7683fc67ffbcfb2319736f9a290f590e8fda6093c2b3b98197509cc98fe9893
+SHA1: c36041867b34f9da17f5e6b9c788656f958941af
+MD5sum: 01ed0be6c8f3ab3d0e14c9690d4c7c98
 Description: LXMASTER real-time EtherCAT master library, tools, and CLI
 Homepage: https://apt.lynxtechs.com
 Maintainer: LXMASTER <maintainer@lynxtechs.com>
-Version: 1.2.5+bookworm
-Installed-Size: 5884
+Version: 1.2.6+bookworm
+Installed-Size: 5973
 

@@ -1,28 +1,28 @@
 Origin: LXMASTER
 Label: LXMASTER
 Codename: bookworm
-Date: Thu, 01 Oct 2026 18:34:17 UTC
+Date: Fri, 02 Oct 2026 19:17:56 UTC
 Architectures: amd64 arm64
 Components: main
 Description: LXMASTER apt repository (Debian 12 / bookworm)
 MD5Sum:
- 32ba1e3be80dd4518bd53fb1ea654b04 644 main/binary-amd64/Packages
- 878bc37389dd5aed98a8189336feb367 449 main/binary-amd64/Packages.gz
+ 4cdd7352994b756694871965b77de58c 644 main/binary-amd64/Packages
+ 9e8f8cd3d6170109276903bdcf97bd66 451 main/binary-amd64/Packages.gz
  28e524e056570fe8f69353eb58cda7a2 129 main/binary-amd64/Release
- bfb74acca88e1c99aa84249412e9fad6 644 main/binary-arm64/Packages
- fb644e548c573ac9e1c293ca22af4292 448 main/binary-arm64/Packages.gz
+ 88b58b6eac2d5dcd0064b312bcd1a557 644 main/binary-arm64/Packages
+ b9e98e148ba4a94a22174ced5df185fb 446 main/binary-arm64/Packages.gz
  e8c01243d8109a7eca07552dc90b1497 129 main/binary-arm64/Release
 SHA1:
- 72181d3b981d8e7b6b75a3103301fbc54ff1b9b2 644 main/binary-amd64/Packages
- 9a1c13d8370f1d35c24e96a9256e48e162f07bc6 449 main/binary-amd64/Packages.gz
+ 3ac690601af61b6ee1ee8c4b37cc561bbad11657 644 main/binary-amd64/Packages
+ 4fcea9b53e20c0fc65c39c466e56d489f931ff12 451 main/binary-amd64/Packages.gz
  aa1b5ffed1fd4775c85a4d85284e6b788de299c9 129 main/binary-amd64/Release
- 6872db564531f84e2c869b415582cb1b3d65f3d9 644 main/binary-arm64/Packages
- 4d864b2ad1b427a30b2d27df19b423a599a0ad7e 448 main/binary-arm64/Packages.gz
+ 791ecba1ec14d92d7c3bafea0cb42af16ad718bc 644 main/binary-arm64/Packages
+ df91bcc4244902b92bf3add0c89231092c1f741f 446 main/binary-arm64/Packages.gz
  79b7ff7d485c1285d57aa5d55745f76b833ae3bd 129 main/binary-arm64/Release
 SHA256:
- 3977c5a10c32bd18049c86883cbfb2ca003852ba7c81828a121ce04408efbb23 644 main/binary-amd64/Packages
- 8e29a7573d4906fe1ca13f0c9d00e33705adcc5c098ee529a670ebe48c323e1b 449 main/binary-amd64/Packages.gz
+ 9b4f4560a42e24ce0f77618227dd04a7dc9928db3e938603b7c44ba4c354dde9 644 main/binary-amd64/Packages
+ c4fb09b3b709c9448dffcd4ba36f549cd9e0dcf00ac90a2d9ace41537b5e6519 451 main/binary-amd64/Packages.gz
  4f650e35963409a965899ea84d1aa402bf7356250047b1825a8dfcd8c7d0c8fb 129 main/binary-amd64/Release
- 469152e5bf2bb027d007dc1254aaea79c1e5184a2a5fed43499e26a1536b3d6e 644 main/binary-arm64/Packages
- 4f7ce5ef6405920729dfc7210b40ad14c8baf2c6b3525222663f3e9ecc6e78c0 448 main/binary-arm64/Packages.gz
+ bb9a35a64ca36d760baac47b7edcfebbe02962d6330295bd520cca9295219eb1 644 main/binary-arm64/Packages
+ 6d1bbe5db0263667e8f989a545ce7c3c8c438205b67e41589bb1bd1c68820fc8 446 main/binary-arm64/Packages.gz
  7ebaa84305102fbad7c7a5251023cc67755097e73f675567d11c5bf82272898a 129 main/binary-arm64/Release

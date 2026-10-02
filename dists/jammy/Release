@@ -1,28 +1,28 @@
 Origin: LXMASTER
 Label: LXMASTER
 Codename: jammy
-Date: Thu, 01 Oct 2026 18:34:17 UTC
+Date: Fri, 02 Oct 2026 19:17:55 UTC
 Architectures: amd64 arm64
 Components: main
 Description: LXMASTER apt repository (Ubuntu 22.04 LTS / jammy)
 MD5Sum:
- a700e1de47568686781ab8999e7cbd2e 638 main/binary-amd64/Packages
- f175ac61edd5776ae9da4fa2a3cda4bd 445 main/binary-amd64/Packages.gz
+ 03f037bddb713454ad82a618881335f1 638 main/binary-amd64/Packages
+ 869f30d6d760ad64b40841ea64de7175 447 main/binary-amd64/Packages.gz
  fba391067d8ed68bbc937696e92fafb2 133 main/binary-amd64/Release
- dcf00c95bb2da57a343268fd9b6c6c3a 638 main/binary-arm64/Packages
- 58572a21f63ef8b5f69c66457011905b 446 main/binary-arm64/Packages.gz
+ 0bea86b3e81a0771a1c436ae3e5e31d1 638 main/binary-arm64/Packages
+ bc6353d87d5542910f5a130bfc8d3451 445 main/binary-arm64/Packages.gz
  aad078f86642d3c4ca3395e135c02584 133 main/binary-arm64/Release
 SHA1:
- 111358251c6e6ed74bf6370708ec615809f188d9 638 main/binary-amd64/Packages
- 8573abb1c1f037d8383e1e4b4ba32e606cee31bb 445 main/binary-amd64/Packages.gz
+ 6c40065eeae1ed34be206ed6229853435f084295 638 main/binary-amd64/Packages
+ 1522b33d1561bf27461355ef185b1d0bb43a7a4c 447 main/binary-amd64/Packages.gz
  9f097e4b1891b2c168a1c2a7acc9cfa1f893ce4e 133 main/binary-amd64/Release
- 02dd015139d5e410338475afe342aa9e1df33b4e 638 main/binary-arm64/Packages
- 1e8a0e35776656a24a32e2c33c60239625ecd4c6 446 main/binary-arm64/Packages.gz
+ 2036290e9336db55854efd1ce06c8b1039149eea 638 main/binary-arm64/Packages
+ 5bdf603a094b26ab2fefaa6df5f374ce54d829c5 445 main/binary-arm64/Packages.gz
  1eaf77ab3e6cd84d9a2f880f64e8e4e27de026c5 133 main/binary-arm64/Release
 SHA256:
- fea51d0d6cf5b46d29572705ca4dca1c54c68ba4af93b166063092b24a0f11f2 638 main/binary-amd64/Packages
- 18f3d3046080b6a957860e84cc5f6d6e673222b3b520ed32968638045fa5622d 445 main/binary-amd64/Packages.gz
+ 77dd40b7ffe6d5d8633bb0b08b2d79b41089af35f8010148972a772c6f6d321c 638 main/binary-amd64/Packages
+ 441bd81bcfce51db0f7a37dc1141c69e05ce6e205e94b899c897103646aacc18 447 main/binary-amd64/Packages.gz
  1d40cb95b800bf84ade4a2c5bbe5976eb451bc051a2d549473c00033580efb8d 133 main/binary-amd64/Release
- e7086bf5b06afcca6f7e6107bf10655efc83bc7cf9f6553909a90407ff4eacab 638 main/binary-arm64/Packages
- e74796db481c0fdfc2b80186be583471f2e90f4fb811113b58b702e19badd810 446 main/binary-arm64/Packages.gz
+ 38108583b2abbc93faf340a5f5bf2e9b32728113154deb91b167e686b3364f7b 638 main/binary-arm64/Packages
+ fc586cb9692f49c789a40228ecbe25364889e13661d9bef1c579d77ac8531841 445 main/binary-arm64/Packages.gz
  1206843b63300ebf84faab27802d30e181a9d978fb422960615978f255e9435f 133 main/binary-arm64/Release
